@@ -4,8 +4,8 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         Jugador j1 = new Jugador();
-        j1.id=1;
-        j1.name="Maradona";
+        //j1.id=1;
+        //j1.name="Maradona";
         j1.dorsal=10;
         j1.altura=1.65f;
         j1.peso=70.5f;
@@ -16,8 +16,8 @@ public class Main {
                 30);
 
         Jugador j2 = new Jugador();
-        j2.id=2;
-        j2.name="Ronaldo";
+        //j2.id=2;
+        //j2.name="Ronaldo";
         j2.dorsal=10;
         j2.altura=1.64f;
         j2.peso=74.5f;
@@ -42,7 +42,7 @@ public class Main {
         jotas[2]=j3;
 
         for (Jugador j : jotas) {
-            System.out.println(j.name);
+            System.out.println(j);
         }
 
 
